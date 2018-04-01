@@ -1,0 +1,58 @@
+input.first-name {
+  font-size: 1.5em;
+  padding-right: 0;
+  padding-left: 0;
+  resize: none;
+  border: none;
+}
+
+input.first-name:focus {
+  outline: none;
+}
+
+.control-group {
+  border-bottom: 1px solid #e9ecef;
+  width: 100%;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: left;
+}
+
+textarea {
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: 0 0;
+  box-shadow: none;
+  height: 150px;
+  width: 100%;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+form {
+  position: relative;
+}
+
+.success {
+  position: absolute;
+  left: 40px;
+}
+
+.button-submit {
+  border-radius: 4px;
+  border: #18bc9c;
+  background: #18bc9c;
+  padding: 1.25rem 1.75rem;
+  color: #fff;
+  font-size: 1.25rem;
+  left: 0;
+}
+
